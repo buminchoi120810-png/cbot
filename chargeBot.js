@@ -11,7 +11,7 @@ const {
   Events
 } = require("discord.js");
 
-const TOKEN = "MTQ3Njk3Njk1NDI4NzcxODQ1MA.Gbj4qz.dketqhcIpWyWHNySLBDUExH3y8rwo1Dh9RCD9s";
+const TOKEN = process.env.TOKEN;
 const CHANNEL_ID = "1476972158772187239";
 
 const client = new Client({
